@@ -71,3 +71,10 @@ img{
     margin-left: 46%;
     visibility: hidden;
 }
+
+@media (max-width: 600px) {
+    .options{
+        display: flex;
+        flex-direction: column;
+    }
+}
