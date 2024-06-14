@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Game</title>
+</head>
+<body>
+  <div class="header">Let's Play today!</div>
+
+  <div class="options">
+    <div class="option" id="scissors">
+      <img src="scissors.jpg" alt="scissors">
+    </div>
+    <div class="option" id="rock">
+      <img src="rock.jpg" alt="rock">
+    </div>
+    <div class="option" id="paper">
+      <img src="paper.jpg" alt="paper">
+    </div>
+  </div>
+
+  <div class="scores">
+    <div class="score">
+      <p id="user-score">0</p>
+      You
+    </div>
+    <div class="score">
+      <p id="comp-score">0</p>
+      Computer
+    </div>
+  </div>
+
+  <div class="end">
+    <p class="end-msg">Play your turn!</p>
+  </div>
+  <div class="cont-btn">
+    <button class="btn" id="restart-btn">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
